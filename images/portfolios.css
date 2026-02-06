@@ -1,0 +1,98 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url("portfolio.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+
+/* Header Styles */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* transparent so bg image shows */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    z-index: 1000;
+}
+
+/* Logo Styles */
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Hide logo when scrolled */
+.logo.hide-logo {
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Navigation */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Show nav-links on scroll */
+.nav-links.show-nav {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ff6600;
+}
+
+/* Sections */
+.section {
+    background: rgba(0, 0, 0, 0.4); /* semi-transparent for readability */
+    color: white;
+    padding: 100px 20px;
+}
+
+
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px 20px 60px;
+}
+
+
+
+.hero-img img {
+    max-width: 300px;
+}
