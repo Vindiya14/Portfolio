@@ -56,8 +56,6 @@ Organizing project structure professionally
 Hi, I'm Vindiya 👋
 A Frontend Developer passionate about building responsive and user-friendly web applications.
 
-📬 Contact
 
-LinkedIn: (Add your LinkedIn link)
 
-Email: (Add your email)
+
