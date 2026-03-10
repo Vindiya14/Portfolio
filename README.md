@@ -3,7 +3,7 @@
 A modern and responsive personal portfolio website built using HTML, CSS, and JavaScript.
 This portfolio showcases my skills, projects, and contact information in a clean and user-friendly interface.
 
-🔗 Live Demo:  https://vindiya14.github.io/portfolio-name
+🔗 Live Demo:  https://vindiya14.github.io/portfolio
 
 📂 GitHub Repository: https://github.com/Vindiya14/portfolio-git
 
