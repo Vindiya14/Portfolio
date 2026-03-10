@@ -5,7 +5,7 @@ This portfolio showcases my skills, projects, and contact information in a clean
 
 🔗 Live Demo: https:/.github.io/portfolio-name
 
-📂 GitHub Repository: https://github.com/your-username/portfolio-name
+📂 GitHub Repository: https://github.com/Vindiya14/portfolio-git
 
 🚀 Features
 
